@@ -6,7 +6,7 @@ resource "oci_core_instance" "ubuntu_instance" {
     compartment_id = "ocid1.compartment.oc1..aaaaaaaam47w2heedh3xnu237co7zkf5pxcbqnbnwa4cn35wxsw554z2d5wa"
     shape = "VM.Standard2.1"
     source_details {
-        source_id = "ocid1.image.oc1..aaaaaaaawin5rctlszxl2jcoloih3esel34poaz3wck5ottfbfevnl3esema"
+        source_id = "ocid1.image.oc1.phx.aaaaaaaa6eiku5vs22iahc6apgjmqocfjghn3kkhqskrw6l5wrgzqhlfx5za"
         source_type = "image"
     }
 
