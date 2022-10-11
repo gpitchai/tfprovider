@@ -13,7 +13,7 @@ resource "oci_core_instance" "ubuntu_instance" {
 display_name = "terraformintance"
     create_vnic_details {
         assign_public_ip = true
-        subnet_id = "ocid1.subnet.oc1.iad.aaaaaaaaox4w6qoarjmv2qgsdbcr4bfnfyn3kszqegxlu73u43unvstjqhja"
+        subnet_id = "ocid1.subnet.oc1.phx.aaaaaaaanyq72ujqb7nimfbfclmvi4q2clp5mh6hsg25qzdbldq237lrbfmq"
     }
     
     preserve_boot_volume = false
